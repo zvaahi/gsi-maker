@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.6.18/miui_MI6X_20.6.18_5810c312a5_9.0.zip
+  ROM_URL: https://newcontinuum.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms//xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/xiaomi.eu_multi_HM8_V11.0.1.0.QCNCNXM_v11-10.zip
   ROM_NAME: MIUI
   ZIP_NAME: MIUI
   TZ: Asia/Kolkata
