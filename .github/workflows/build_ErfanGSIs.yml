@@ -14,11 +14,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://newcontinuum.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms//xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/xiaomi.eu_multi_HM8_V11.0.1.0.QCNCNXM_v11-10.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/NordOxygen/NordOxygen_14.O.10_GLO_010_2009260504/NordOxygen_14.O.10_OTA_010_all_2009260504_113aafee5.zip
+  ROM_NAME: OxygenOs
+  ZIP_NAME: oxygenos_ElytrA8
   TZ: Asia/Kolkata
-  MIR: bit
+  MIR: wet
 jobs:
   build:
     runs-on: ubuntu-latest
