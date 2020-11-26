@@ -14,14 +14,14 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.6.18/miui_MI6X_20.6.18_5810c312a5_9.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.45_OTA_045_all_2010191035_fde4ca8ebd8f4cfc.zip
+  ROM_NAME: OxygenOS
   TZ: Asia/Kolkata
   username : BERKAYGSIS
   password : ${{ secrets.PASSWORD }}
   MIR: wet
   uploadto : uploads.androidfilehost.com
-  ZIP_NAME: MIUI
+  ZIP_NAME: OxygenOS-OpenBeta-19
 jobs:
   build:
     runs-on: ubuntu-latest
