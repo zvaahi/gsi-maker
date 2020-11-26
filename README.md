@@ -12,9 +12,9 @@
 > Xperia	
 > ZUI	
 > ZenUI
-> JoyUI (thanks to Vega)
-> RogUI (thanks to Vega)
-> VOS (Thanks to Vega)
+> JoyUI
+> RogUI
+> VOS
 ### 10 Q： ###
 > Generic
 > MIUI	
