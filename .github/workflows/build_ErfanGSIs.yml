@@ -14,14 +14,14 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.45_OTA_045_all_2010191035_fde4ca8ebd8f4cfc.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.11.10/cn_daily/20201110003048/9e816b1b/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Kolkata
   username : BERKAYGSIS
   password : ${{ secrets.PASSWORD }}
   MIR: wet
   uploadto : uploads.androidfilehost.com
-  ZIP_NAME: OxygenOS-OpenBeta-19
+  ZIP_NAME: Flyme-8
 jobs:
   build:
     runs-on: ubuntu-latest
