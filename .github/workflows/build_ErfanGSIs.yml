@@ -1,15 +1,6 @@
 name: Building GSI..
 
 on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
   watch:
     types: [started]
     
@@ -17,10 +8,7 @@ env:
   ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.11.10/cn_daily/20201110003048/9e816b1b/update.zip
   ROM_NAME: Flyme
   TZ: Asia/Kolkata
-  username : BERKAYGSIS
-  password : ${{ secrets.PASSWORD }}
   MIR: wet
-  uploadto : uploads.androidfilehost.com
   ZIP_NAME: Flyme-8
 jobs:
   build:
@@ -38,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/JamieHoSzeYui/ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/YuMiGSIs/ErfanGSIs-VelanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
