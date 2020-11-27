@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.11.10/cn_daily/20201110003048/9e816b1b/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://netix.dl.sourceforge.net/project/ancientrom/dream2lte/AncientOS-CIVILIZATION-v4.0.1-Final-dream2lte-PRIMEVAL-20201113-1755-Vanilla.zip?viasf=1
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Flyme-8
+  ZIP_NAME: ancient
 jobs:
   build:
     runs-on: ubuntu-latest
