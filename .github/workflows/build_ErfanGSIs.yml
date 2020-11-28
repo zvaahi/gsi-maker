@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://netix.dl.sourceforge.net/project/ancientrom/beryllium/AncientOS-weeaboify-v4.0.1-Final-beryllium-Koshiki-20201118-2044-GApps.zip?viasf=1
+  ROM_URL: https://netix.dl.sourceforge.net/project/blissroms/Q/guacamole/Bliss-v12.12-guacamole-OFFICIAL-20200929.zip?viasf=1
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
