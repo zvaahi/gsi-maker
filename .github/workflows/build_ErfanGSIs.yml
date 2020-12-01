@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mc.boeloekzz11.workers.dev/MIUI_NUSANTARA_20.10.30_HMNOTE5_12-10_Official.zip
+  ROM_URL: https://miui-nusantara-project.lamz.workers.dev/VINCE/KANGLIHAM_MIUI-X_V12.0.2.0_HM5Plus_V12-10.zip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MIUI nusantara
+  ZIP_NAME: MIUI x
 jobs:
   build:
     runs-on: ubuntu-latest
