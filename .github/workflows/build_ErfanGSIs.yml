@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://m2.boeloekzz11.workers.dev/Xperience_whyred_V12.0.1.0.QCOCNXM_10.zip
+  ROM_URL: https://m4.boeloekzz11.workers.dev/MMX_2.2.0_WHYRED_20.11.25_v12-10.zip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
