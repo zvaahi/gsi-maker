@@ -9,7 +9,7 @@ env:
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MIUI x
+  ZIP_NAME: MIUI
 jobs:
   build:
     runs-on: ubuntu-latest
